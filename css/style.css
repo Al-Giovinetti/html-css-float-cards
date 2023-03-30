@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;}
+
+main{
+    width: 80%;
+    height: 500px;
+    background-color: blue;
+    margin: 30px auto;}
+
+section:first-child{
+    text-align: center;}
+
+section:first-child *{padding: 20px;}
+
+h1{
+    font: size 40px;}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;}
+
+.float-left{
+    float: left;}
+
+.team-member{
+    width: calc(94% / 3);
+    height: 100px;
+    background-color: darkgoldenrod;
+    border: 1px solid black;
+    margin: 1%;}
